@@ -2,9 +2,9 @@
 {
   "guid": "d8f1e5c2-7a93-4b61-9e24-6c8f31a5b207",
   "name": "Folder Name Titles",
-  "description": "Uses the movie folder name as its Jellyfin title.",
-  "overview": "Replaces movie titles with their containing folder names.",
-  "owner": "Local",
+  "description": "Automatically uses movie and TV series folder names as their displayed titles in Jellyfin.",
+  "overview": "Replaces movie and TV series titles with their containing folder names and locks the updated metadata to help prevent overwrites.",
+  "owner": "halogrunt01",
   "category": "General",
   "versions": [
     {
@@ -12,7 +12,7 @@
       "changelog": "Initial release",
       "targetAbi": "10.11.0.0",
       "sourceUrl": "",
-      "checksum": "",
+      "checksum": "d973f0f29ae2d333d33c793e5d44d7d4c573e4d21180c305bba6a3db3eb636f2",
       "timestamp": "2026-11-20T00:00:00Z",
       "assemblies": [
         "FolderNameTitles.dll"
